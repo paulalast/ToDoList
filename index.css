@@ -1,0 +1,133 @@
+:root {
+	--primary-color: #2c497f;
+	--secondary-color: #a1867f;
+	--third-color: #517664;
+	--text-color: #333;
+}
+
+body {
+	background-color: var(--text-color);
+	font-family: "Roboto", sans-serif;
+	margin: 0;
+}
+
+h1 {
+	font-size: 3rem;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 1rem;
+	color: var(--text-color);
+	text-shadow: 1px 1px #eee;
+}
+
+.wrapper {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 2rem;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	border-radius: 0.5rem;
+	border-top: 3px solid var(--primary-color);
+}
+
+form {
+	display: flex;
+	margin-bottom: 1rem;
+}
+
+input[type="text"] {
+	flex-grow: 1;
+	padding: 0.5rem;
+	border: none;
+	border-radius: 0.3rem;
+	font-size: 1.1rem;
+	background-color: #f3f3f3;
+	font-weight: 300;
+}
+
+input[type="text"]:focus {
+	outline: none;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button[type="submit"] {
+	padding: 0.5rem 1em;
+	font-size: 1.1rem;
+	background-color: var(--primary-color);
+	color: #fff;
+	border: none;
+	border-radius: 0.3rem;
+	cursor: pointer;
+	transition: background-color 0.2s ease-in-out;
+}
+
+button[type="submit"]:hover,
+button[type="submit"]:focus {
+	background-color: var(--third-color);
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: flex;
+	align-items: center;
+	background-color: #fff;
+	margin-bottom: 0.5rem;
+	border-radius: 0.3rem;
+	overflow: hidden;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+li:hover {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+span {
+	padding: 0.75rem;
+	flex-grow: 1;
+	font-weight: 300;
+	font-size: 1.1rem;
+	color: var(--text-color);
+}
+
+button.edit {
+	background-color: var(--secondary-color);
+	color: #fff;
+	border: none;
+	padding: 0.5rem;
+	font-size: 1.1rem;
+	cursor: pointer;
+	transition: background-color 0.2s ease-in-out;
+}
+
+button.edit:hover,
+button.edit:focus {
+	background-color: var(--third-color);
+}
+
+button.delete {
+	background-color: var(--secondary-color);
+	color: #fff;
+	border: none;
+	padding: 0.5rem;
+	font-size: 1.1rem;
+	cursor: pointer;
+	transition: background-color 0.2s ease-in-out;
+}
+
+button.delete:hover,
+button.delete:focus {
+	background-color: var(--third-color);
+}
+button {
+	cursor: pointer;
+	border-radius: 0.3em;
+	border: none;
+	padding: 0.5em 1.8em;
+	margin: 0 0.5em;
+}
