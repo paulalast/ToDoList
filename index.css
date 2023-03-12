@@ -81,10 +81,13 @@ li {
 	border-radius: 0.3rem;
 	overflow: hidden;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	transition: box-shadow 0.3s;
 }
 
 li:hover {
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+	overflow: hidden;
+	border-radius: 5px;
 }
 
 span {
